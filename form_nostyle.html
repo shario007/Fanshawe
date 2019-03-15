@@ -1,0 +1,105 @@
+<html>
+<head>
+	<title>Sign Up Form</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="form_style.css">
+
+</head>
+
+<style>
+	h1#form-header {
+		color: purple;
+			}
+
+	h2{
+		color:yellow;
+		}
+		
+	.legend {
+		color:white;
+		}
+	.p {
+		color:white;
+		}	
+
+	</style>
+<body>
+
+	<h1 id="form-header">Soccer Player Registration Form</h1>
+	<h2>Summer 2019</h2>
+
+
+			<p>
+			<label><b>Name</b>
+			<input type="text" name="customer_name" required>
+			</label> 
+			</p>
+
+			<p>
+			<label><b>Phone</b>
+			<input type="tel" name="phone_number" required>
+			</label>
+			</p>
+
+			<p>
+			<label><b>Email</b>
+			<input type="email" name="email_address" required>
+			</label>
+			</p>
+
+			<fieldset>
+			<legend>What is your preferred position?</legend>
+			<p><label> <input type="radio" name="position" required value="F"> Forward </label></p>
+			<p><label> <input type="radio" name="position" required value="M"> Midfield </label></p>
+			<p><label> <input type="radio" name="position" required value="D"> Defense </label></p>
+			<p><label> <input type="radio" name="position" required value="GK"> Goal Keeper</label></p>
+			</fieldset>
+
+			<p>
+			<label>Preferred Start Date
+			<input type="date" name="pickup_time" optional>
+			</label>
+			</p>
+				
+			<p>
+			<label>Preferred Field Location
+			<select id="pickup_place" name="pickup_place" optional>
+			<option value="" selected="selected">Select One</option>
+			<option value="NL" >North London</option>
+			<option value="Byron" >Byron</option>
+			<option value="CW" >Citywide</option>
+			</select>
+			</label> 
+			</p>
+
+			<p>
+			<label>Jersey Number
+			<input type="text" name="jersey_number" required list="numbers" optional>
+			</label>
+
+			<datalist id="numbers">
+				<option value="GK">
+				<option value="02">
+				<option value="03">
+				<option value="04">
+				<option value="05">
+				<option value="06">
+				<option value="07">
+				<option value="08">
+				<option value="09">
+				<option value="10">
+				<option value="11">
+			</datalist>
+			</p>
+
+			<p>
+			<label>Special Instructions
+			<textarea name="comments" maxlength="500" optional></textarea>
+			</label>
+			</p>
+
+			<p><button>Submit Form</button></p>
+
+		</form>
+	</body>
+</html>

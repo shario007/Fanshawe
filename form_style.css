@@ -1,0 +1,63 @@
+body{
+	background-color: black;
+}
+
+style h1 {
+	font-family: calibri;
+	font-size: 2.0;
+	color: purple;
+}
+
+style h2{
+	font-family: calibri;
+	font-size: 2.0;
+	color: yellow;
+}
+
+p{
+	color:white;
+}
+
+legend{
+	color:white;
+}
+
+*,
+*:before,
+*:after {
+	box-sizing:border-box;
+}
+form {
+	border: 2px solid #c6c7cc;
+	border-radius: 5px;
+	font: 14px/1.4 "Helvetica Neue", Helvetica, Arial, sans-serif;
+	overflow: hidden;
+	width: 40px;
+}
+label {
+	display: block;
+	font-weight: bold;
+	margin-bottom: 20px
+}
+input {
+	background: #fff;
+	border: 1px solid #c6c7cc;
+	box-shadow: inset 0 1px 1px rgba(0, 0, 0, .1);
+	padding: 6px;
+	margin-top: 6px;
+	width: 100%;
+}
+button {
+	background: linear-gradient(#49708f, #293f50);
+	border: 2;
+	cursor: pointer;
+	font-weight: bold;
+	float: left;
+	padding: 8px 16px;
+}
+
+@media screen and (max-width: 800px) and (min-width: 480px) {
+	section {
+		float: none;   /* remove floats, make it single col layout */
+		width: 98%;
+	}
