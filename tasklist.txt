@@ -1,1 +1,6 @@
 Place to keep Assignment Tasks
+Assignment Task:  Added two descendant selectors to your last assignment.  This will include adding the selectors to your CSS file and may include changes to your HTML file if two unique descendants are not currently available. 
+Assignment Task:  Added two child selectors to your last assignment.  
+Assignment Task:  Added one sibling selector to your last assignment
+Assignment Task:  Added an adjacent sibling selector to your last assignment.
+Assignment Task:  In the tasklist.txt file, cut and paste all the assignment task steps from this presentation and then commit and push the file to the remote repository
